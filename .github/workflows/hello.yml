@@ -1,4 +1,4 @@
-name: Hello World
+name: learning github action
 
 on: push
 
