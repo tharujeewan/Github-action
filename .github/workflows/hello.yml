@@ -16,11 +16,11 @@ jobs:
       - name: Print Node version
         run: node --version
 
-        - name: Print environment variables
-  run: env
+      - name: Print environment variables
+        run: env
 
-- name: Print current directory
-  run: pwd
+      - name: Print current directory
+        run: pwd
 
       - name: List files
         run: ls -la
